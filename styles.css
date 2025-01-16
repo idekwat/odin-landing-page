@@ -1,0 +1,40 @@
+
+body {
+    font-family: Roboto, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-1, .content-2, .content-3, .content-4 {
+    padding: 50px 250px;
+}
+
+.header, .footer, .content-1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.header-text {
+    display: flex;
+    justify-content: space-between;
+}
+.content-1 {
+    flex-direction: column;
+}
+
+.header {
+    justify-content: space-between;
+}
+.header-links {
+    flex-wrap: wrap;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+}
